@@ -6,7 +6,7 @@ const Loader = () => {
   const [reveal, setReveal] = useState(0);
 
   useEffect(() => {
-    const sentences = ["Site is under development...", "But you can still see some of my work"];
+    const sentences = ["The site is under development...", "But you can still see some of my work"];
 
     // Initial values
     let currentIndex = 0;
