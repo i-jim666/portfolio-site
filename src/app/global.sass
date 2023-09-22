@@ -9,9 +9,12 @@ body
     overflow-x: hidden
 
 body
-    background: #fff
+    background: #f3f3f3f6
     padding: 60px 100px
     color: #171717
+
+    @media (max-width: 768px)
+        padding: 56px 25px
 
 a 
   color: inherit
@@ -25,12 +28,17 @@ h1
     text-align: center
 
     @media (max-width: 600px)
-        font-size: 36px
+        font-size: 26px
 
 h1
     color: #171717
     letter-spacing: -0.04em
     text-align: left
+    
+    @media (max-width: 768px)
+        max-width: 600px
+        margin-left: auto
+        margin-right: auto
 
 .loader
     position: fixed
@@ -58,10 +66,21 @@ h1
     margin-right: -50px
     margin-top: 30px
 
+    @media (max-width: 768px)
+        max-width: 600px
+        margin-left: auto
+        margin-right: auto
+
+    @media (max-width: 600px)
+        gap: 20px
+        margin-right: 0
 
 
 .project
     width: calc(50% - 50px)
+    @media (max-width: 768px)
+        width: 100%
+
     color: #171717
     overflow: hidden
     display: flex
@@ -90,3 +109,6 @@ h1
         font-weight: 600
         color: #171717
         margin-top: 10px
+
+        @media (max-width: 600px)
+            font-size: 16px

@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="portfolio_holder">
-        <h1>Sites</h1>
+        <h1>Some of my work</h1>
         <ProjectsHolder />
       </div>
     </>
